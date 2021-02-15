@@ -61,8 +61,8 @@ void strings::wypisz() {
 }
 
 strings::~strings() {
-	file.open("c:\ciagi (2).txt");
- 	fileOut.open("wyjscie.txt");
+	file.close("c:\ciagi (2).txt");
+ 	fileOut.close("wyjscie.txt");
 }
 
 int main(int argc, char** argv) {
